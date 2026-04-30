@@ -1,5 +1,7 @@
 mkdir -p ~/ws_webot_Drone
+
 cd ~/ws_webot_Drone
+
 docker pull cyberbotics/webots:R2025a-ubuntu22.04
 
 xhost +local:docker
@@ -24,6 +26,7 @@ docker run -it \
 apt update && apt install -y mesa-utils
 glxinfo -B
 
+
 apt-get install python3-pip -y
 pip3 install opencv-python
 pip install pyyaml
@@ -33,6 +36,7 @@ cd /ws_webot_Drone
 python3 project/scripts/make_aruco_marker.py
 python3 generate_world.py \
   --config project/config/config.yaml
+
 
 webots
 
