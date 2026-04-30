@@ -1,0 +1,329 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+
+WorldInfo {
+  basicTimeStep 32
+}
+
+Viewpoint {
+  orientation -0.5267542163807309 0.30187841562043327 0.7946064546098395 2.2869564011379837
+  position 10 -18 35
+}
+
+TexturedBackground {
+}
+
+TexturedBackgroundLight {
+}
+
+RectangleArena {
+  floorSize 15 15
+  floorTileSize 1 1
+  floorAppearance PBRAppearance {
+    baseColor 1 1 1
+    roughness 1
+    metalness 0
+  }
+  wallHeight 0.5
+}
+
+Solid {
+  translation 0 -4 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 8 0.15 0.01
+      }
+    }
+  ]
+  name "line_h_0"
+}
+
+Solid {
+  translation 0 -2.4 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 8 0.15 0.01
+      }
+    }
+  ]
+  name "line_h_1"
+}
+
+Solid {
+  translation 0 -0.8 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 8 0.15 0.01
+      }
+    }
+  ]
+  name "line_h_2"
+}
+
+Solid {
+  translation 0 0.8 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 8 0.15 0.01
+      }
+    }
+  ]
+  name "line_h_3"
+}
+
+Solid {
+  translation 0 2.4 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 8 0.15 0.01
+      }
+    }
+  ]
+  name "line_h_4"
+}
+
+Solid {
+  translation 0 4 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 8 0.15 0.01
+      }
+    }
+  ]
+  name "line_h_5"
+}
+
+Solid {
+  translation -4 0 0.0052
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 8 0.01
+      }
+    }
+  ]
+  name "line_v_0"
+}
+
+Solid {
+  translation -2.4 0 0.0052
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 8 0.01
+      }
+    }
+  ]
+  name "line_v_1"
+}
+
+Solid {
+  translation -0.8 0 0.0052
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 8 0.01
+      }
+    }
+  ]
+  name "line_v_2"
+}
+
+Solid {
+  translation 0.8 0 0.0052
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 8 0.01
+      }
+    }
+  ]
+  name "line_v_3"
+}
+
+Solid {
+  translation 2.4 0 0.0052
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 8 0.01
+      }
+    }
+  ]
+  name "line_v_4"
+}
+
+Solid {
+  translation 4 0 0.0052
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 8 0.01
+      }
+    }
+  ]
+  name "line_v_5"
+}
+
+Solid {
+  translation 0 -4.5 0.005
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.15 1 0.01
+      }
+    }
+  ]
+  name "entry_path"
+}
+
+DEF LINE_TRACKER Robot {
+  translation 0 -5 1
+  rotation 0 0 1 1.570796
+  controller "line_tracker"
+  supervisor TRUE
+
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0.15 0.15 0.18
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.36 0.36 0.1
+      }
+    }
+
+    Transform {
+      translation 0.16 0 0.07
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.9 0.2 0.2
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.12 0.16 0.03
+          }
+        }
+      ]
+    }
+
+    Transform {
+      translation 0 0.16 0.07
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.2 0.2 0.9
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.1 0.04 0.03
+          }
+        }
+      ]
+    }
+
+    DEF FRONT_CAMERA Camera {
+      translation 0.2 0 0.02
+      rotation 0 0 1 0
+      name "front_camera"
+      width 640
+      height 480
+      fieldOfView 1.2
+      near 0.02
+    }
+
+    DEF DOWN_CAMERA Camera {
+      translation 0 0 -0.14
+      rotation 0 1 0 1.5708
+      name "down_camera"
+      width 640
+      height 480
+      fieldOfView 1.2
+      near 0.02
+    }
+  ]
+
+  name "line_tracker"
+  boundingObject Box {
+    size 0.36 0.36 0.1
+  }
+}

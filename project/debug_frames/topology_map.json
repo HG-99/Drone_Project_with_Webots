@@ -1,0 +1,924 @@
+{
+  "nodes": {
+    "N:0.00,-4.00": {
+      "key": "N:0.00,-4.00",
+      "x": 0.0,
+      "y": -4.0,
+      "visits": 2,
+      "node_types": [
+        "T_MISSING_FRONT",
+        "T_MISSING_BACK"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-0.80,-4.00": {
+      "key": "N:-0.80,-4.00",
+      "x": -0.8,
+      "y": -4.0,
+      "visits": 2,
+      "node_types": [
+        "T_MISSING_BACK",
+        "T_MISSING_FRONT"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-0.80,-2.40": {
+      "key": "N:-0.80,-2.40",
+      "x": -0.8,
+      "y": -2.4,
+      "visits": 2,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-0.80,-0.80": {
+      "key": "N:-0.80,-0.80",
+      "x": -0.8,
+      "y": -0.8,
+      "visits": 2,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-0.80,0.80": {
+      "key": "N:-0.80,0.80",
+      "x": -0.8,
+      "y": 0.8,
+      "visits": 3,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-0.80,2.40": {
+      "key": "N:-0.80,2.40",
+      "x": -0.8,
+      "y": 2.4,
+      "visits": 2,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-0.80,4.00": {
+      "key": "N:-0.80,4.00",
+      "x": -0.8,
+      "y": 4.0,
+      "visits": 3,
+      "node_types": [
+        "T_MISSING_FRONT",
+        "T_MISSING_LEFT"
+      ],
+      "observed_dirs": [
+        "E",
+        "W",
+        "S"
+      ]
+    },
+    "N:-2.40,4.00": {
+      "key": "N:-2.40,4.00",
+      "x": -2.4,
+      "y": 4.0,
+      "visits": 3,
+      "node_types": [
+        "T_MISSING_RIGHT",
+        "T_MISSING_FRONT"
+      ],
+      "observed_dirs": [
+        "E",
+        "W",
+        "S"
+      ]
+    },
+    "N:-2.40,2.40": {
+      "key": "N:-2.40,2.40",
+      "x": -2.4,
+      "y": 2.4,
+      "visits": 3,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-2.40,0.80": {
+      "key": "N:-2.40,0.80",
+      "x": -2.4,
+      "y": 0.8,
+      "visits": 4,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-2.40,-0.80": {
+      "key": "N:-2.40,-0.80",
+      "x": -2.4,
+      "y": -0.8,
+      "visits": 4,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-2.40,-2.40": {
+      "key": "N:-2.40,-2.40",
+      "x": -2.4,
+      "y": -2.4,
+      "visits": 3,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-2.40,-4.00": {
+      "key": "N:-2.40,-4.00",
+      "x": -2.4,
+      "y": -4.0,
+      "visits": 2,
+      "node_types": [
+        "T_MISSING_FRONT",
+        "T_MISSING_RIGHT"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W"
+      ]
+    },
+    "N:-4.00,-4.00": {
+      "key": "N:-4.00,-4.00",
+      "x": -4.0,
+      "y": -4.0,
+      "visits": 2,
+      "node_types": [
+        "CORNER_BACK_RIGHT",
+        "CORNER_BACK_LEFT"
+      ],
+      "observed_dirs": [
+        "E",
+        "N"
+      ]
+    },
+    "N:-4.00,-2.40": {
+      "key": "N:-4.00,-2.40",
+      "x": -4.0,
+      "y": -2.4,
+      "visits": 3,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:-4.00,-0.80": {
+      "key": "N:-4.00,-0.80",
+      "x": -4.0,
+      "y": -0.8,
+      "visits": 3,
+      "node_types": [
+        "T_MISSING_LEFT",
+        "T_MISSING_RIGHT",
+        "T_MISSING_FRONT"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "S"
+      ]
+    },
+    "N:-4.00,0.80": {
+      "key": "N:-4.00,0.80",
+      "x": -4.0,
+      "y": 0.8,
+      "visits": 2,
+      "node_types": [
+        "T_MISSING_LEFT",
+        "T_MISSING_RIGHT"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "S"
+      ]
+    },
+    "N:-4.00,2.40": {
+      "key": "N:-4.00,2.40",
+      "x": -4.0,
+      "y": 2.4,
+      "visits": 2,
+      "node_types": [
+        "T_MISSING_LEFT",
+        "T_MISSING_RIGHT"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "S"
+      ]
+    },
+    "N:-4.00,4.00": {
+      "key": "N:-4.00,4.00",
+      "x": -4.0,
+      "y": 4.0,
+      "visits": 1,
+      "node_types": [
+        "CORNER_BACK_RIGHT"
+      ],
+      "observed_dirs": [
+        "E",
+        "S"
+      ]
+    },
+    "N:0.80,4.00": {
+      "key": "N:0.80,4.00",
+      "x": 0.8,
+      "y": 4.0,
+      "visits": 2,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:0.80,2.40": {
+      "key": "N:0.80,2.40",
+      "x": 0.8,
+      "y": 2.4,
+      "visits": 4,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:0.80,0.80": {
+      "key": "N:0.80,0.80",
+      "x": 0.8,
+      "y": 0.8,
+      "visits": 4,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:0.80,-0.80": {
+      "key": "N:0.80,-0.80",
+      "x": 0.8,
+      "y": -0.8,
+      "visits": 2,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:0.80,-2.40": {
+      "key": "N:0.80,-2.40",
+      "x": 0.8,
+      "y": -2.4,
+      "visits": 1,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:0.80,-4.00": {
+      "key": "N:0.80,-4.00",
+      "x": 0.8,
+      "y": -4.0,
+      "visits": 1,
+      "node_types": [
+        "T_MISSING_FRONT"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W"
+      ]
+    },
+    "N:2.40,-4.00": {
+      "key": "N:2.40,-4.00",
+      "x": 2.4,
+      "y": -4.0,
+      "visits": 1,
+      "node_types": [
+        "T_MISSING_RIGHT"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W"
+      ]
+    },
+    "N:2.40,-2.40": {
+      "key": "N:2.40,-2.40",
+      "x": 2.4,
+      "y": -2.4,
+      "visits": 1,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:2.40,-0.80": {
+      "key": "N:2.40,-0.80",
+      "x": 2.4,
+      "y": -0.8,
+      "visits": 1,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:2.40,0.80": {
+      "key": "N:2.40,0.80",
+      "x": 2.4,
+      "y": 0.8,
+      "visits": 1,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:2.40,2.40": {
+      "key": "N:2.40,2.40",
+      "x": 2.4,
+      "y": 2.4,
+      "visits": 2,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:2.40,4.00": {
+      "key": "N:2.40,4.00",
+      "x": 2.4,
+      "y": 4.0,
+      "visits": 2,
+      "node_types": [
+        "T_MISSING_FRONT",
+        "T_MISSING_RIGHT"
+      ],
+      "observed_dirs": [
+        "E",
+        "W",
+        "S"
+      ]
+    },
+    "N:4.00,4.00": {
+      "key": "N:4.00,4.00",
+      "x": 4.0,
+      "y": 4.0,
+      "visits": 2,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:4.00,2.40": {
+      "key": "N:4.00,2.40",
+      "x": 4.0,
+      "y": 2.4,
+      "visits": 2,
+      "node_types": [
+        "T_MISSING_LEFT",
+        "T_MISSING_RIGHT"
+      ],
+      "observed_dirs": [
+        "N",
+        "W",
+        "S"
+      ]
+    },
+    "N:4.00,0.80": {
+      "key": "N:4.00,0.80",
+      "x": 4.0,
+      "y": 0.8,
+      "visits": 1,
+      "node_types": [
+        "CROSS"
+      ],
+      "observed_dirs": [
+        "E",
+        "N",
+        "W",
+        "S"
+      ]
+    }
+  },
+  "edges": {
+    "N:-1.60,-4.00<->N:0.00,-4.00": {
+      "key": "N:-1.60,-4.00<->N:0.00,-4.00",
+      "a": "N:0.00,-4.00",
+      "b": "N:-1.60,-4.00",
+      "visits": 0,
+      "last_direction": "W",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,-4.00<->N:0.00,-4.00": {
+      "key": "N:-0.80,-4.00<->N:0.00,-4.00",
+      "a": "N:0.00,-4.00",
+      "b": "N:-0.80,-4.00",
+      "visits": 2,
+      "last_direction": "E",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,-2.40<->N:-0.80,-4.00": {
+      "key": "N:-0.80,-2.40<->N:-0.80,-4.00",
+      "a": "N:-0.80,-4.00",
+      "b": "N:-0.80,-2.40",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,-0.80<->N:-0.80,-2.40": {
+      "key": "N:-0.80,-0.80<->N:-0.80,-2.40",
+      "a": "N:-0.80,-2.40",
+      "b": "N:-0.80,-0.80",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,-0.80<->N:-0.80,0.80": {
+      "key": "N:-0.80,-0.80<->N:-0.80,0.80",
+      "a": "N:-0.80,-0.80",
+      "b": "N:-0.80,0.80",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,0.80<->N:-0.80,2.40": {
+      "key": "N:-0.80,0.80<->N:-0.80,2.40",
+      "a": "N:-0.80,0.80",
+      "b": "N:-0.80,2.40",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,2.40<->N:-0.80,4.00": {
+      "key": "N:-0.80,2.40<->N:-0.80,4.00",
+      "a": "N:-0.80,2.40",
+      "b": "N:-0.80,4.00",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,4.00<->N:-2.40,4.00": {
+      "key": "N:-0.80,4.00<->N:-2.40,4.00",
+      "a": "N:-0.80,4.00",
+      "b": "N:-2.40,4.00",
+      "visits": 3,
+      "last_direction": "E",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-2.40,2.40<->N:-2.40,4.00": {
+      "key": "N:-2.40,2.40<->N:-2.40,4.00",
+      "a": "N:-2.40,4.00",
+      "b": "N:-2.40,2.40",
+      "visits": 3,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-2.40,0.80<->N:-2.40,2.40": {
+      "key": "N:-2.40,0.80<->N:-2.40,2.40",
+      "a": "N:-2.40,2.40",
+      "b": "N:-2.40,0.80",
+      "visits": 3,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-2.40,-0.80<->N:-2.40,0.80": {
+      "key": "N:-2.40,-0.80<->N:-2.40,0.80",
+      "a": "N:-2.40,0.80",
+      "b": "N:-2.40,-0.80",
+      "visits": 4,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-2.40,-0.80<->N:-2.40,-2.40": {
+      "key": "N:-2.40,-0.80<->N:-2.40,-2.40",
+      "a": "N:-2.40,-0.80",
+      "b": "N:-2.40,-2.40",
+      "visits": 3,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-2.40,-2.40<->N:-2.40,-4.00": {
+      "key": "N:-2.40,-2.40<->N:-2.40,-4.00",
+      "a": "N:-2.40,-2.40",
+      "b": "N:-2.40,-4.00",
+      "visits": 2,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-2.40,-4.00<->N:-4.00,-4.00": {
+      "key": "N:-2.40,-4.00<->N:-4.00,-4.00",
+      "a": "N:-2.40,-4.00",
+      "b": "N:-4.00,-4.00",
+      "visits": 2,
+      "last_direction": "E",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-4.00,-2.40<->N:-4.00,-4.00": {
+      "key": "N:-4.00,-2.40<->N:-4.00,-4.00",
+      "a": "N:-4.00,-4.00",
+      "b": "N:-4.00,-2.40",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-4.00,-0.80<->N:-4.00,-2.40": {
+      "key": "N:-4.00,-0.80<->N:-4.00,-2.40",
+      "a": "N:-4.00,-2.40",
+      "b": "N:-4.00,-0.80",
+      "visits": 3,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-4.00,-0.80<->N:-4.00,0.80": {
+      "key": "N:-4.00,-0.80<->N:-4.00,0.80",
+      "a": "N:-4.00,-0.80",
+      "b": "N:-4.00,0.80",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-4.00,0.80<->N:-4.00,2.40": {
+      "key": "N:-4.00,0.80<->N:-4.00,2.40",
+      "a": "N:-4.00,0.80",
+      "b": "N:-4.00,2.40",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-4.00,2.40<->N:-4.00,4.00": {
+      "key": "N:-4.00,2.40<->N:-4.00,4.00",
+      "a": "N:-4.00,2.40",
+      "b": "N:-4.00,4.00",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,4.00<->N:0.80,4.00": {
+      "key": "N:-0.80,4.00<->N:0.80,4.00",
+      "a": "N:-0.80,4.00",
+      "b": "N:0.80,4.00",
+      "visits": 1,
+      "last_direction": "E",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:0.80,2.40<->N:0.80,4.00": {
+      "key": "N:0.80,2.40<->N:0.80,4.00",
+      "a": "N:0.80,4.00",
+      "b": "N:0.80,2.40",
+      "visits": 3,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:0.80,0.80<->N:0.80,2.40": {
+      "key": "N:0.80,0.80<->N:0.80,2.40",
+      "a": "N:0.80,2.40",
+      "b": "N:0.80,0.80",
+      "visits": 4,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:0.80,-0.80<->N:0.80,0.80": {
+      "key": "N:0.80,-0.80<->N:0.80,0.80",
+      "a": "N:0.80,0.80",
+      "b": "N:0.80,-0.80",
+      "visits": 3,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:0.80,-0.80<->N:0.80,-2.40": {
+      "key": "N:0.80,-0.80<->N:0.80,-2.40",
+      "a": "N:0.80,-0.80",
+      "b": "N:0.80,-2.40",
+      "visits": 1,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:0.80,-2.40<->N:0.80,-4.00": {
+      "key": "N:0.80,-2.40<->N:0.80,-4.00",
+      "a": "N:0.80,-2.40",
+      "b": "N:0.80,-4.00",
+      "visits": 1,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:0.80,-4.00<->N:2.40,-4.00": {
+      "key": "N:0.80,-4.00<->N:2.40,-4.00",
+      "a": "N:0.80,-4.00",
+      "b": "N:2.40,-4.00",
+      "visits": 1,
+      "last_direction": "E",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:2.40,-2.40<->N:2.40,-4.00": {
+      "key": "N:2.40,-2.40<->N:2.40,-4.00",
+      "a": "N:2.40,-4.00",
+      "b": "N:2.40,-2.40",
+      "visits": 1,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:2.40,-0.80<->N:2.40,-2.40": {
+      "key": "N:2.40,-0.80<->N:2.40,-2.40",
+      "a": "N:2.40,-2.40",
+      "b": "N:2.40,-0.80",
+      "visits": 1,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:2.40,-0.80<->N:2.40,0.80": {
+      "key": "N:2.40,-0.80<->N:2.40,0.80",
+      "a": "N:2.40,-0.80",
+      "b": "N:2.40,0.80",
+      "visits": 1,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:2.40,0.80<->N:2.40,2.40": {
+      "key": "N:2.40,0.80<->N:2.40,2.40",
+      "a": "N:2.40,0.80",
+      "b": "N:2.40,2.40",
+      "visits": 1,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:2.40,2.40<->N:2.40,4.00": {
+      "key": "N:2.40,2.40<->N:2.40,4.00",
+      "a": "N:2.40,2.40",
+      "b": "N:2.40,4.00",
+      "visits": 2,
+      "last_direction": "S",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:2.40,4.00<->N:4.00,4.00": {
+      "key": "N:2.40,4.00<->N:4.00,4.00",
+      "a": "N:2.40,4.00",
+      "b": "N:4.00,4.00",
+      "visits": 2,
+      "last_direction": "W",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:4.00,2.40<->N:4.00,4.00": {
+      "key": "N:4.00,2.40<->N:4.00,4.00",
+      "a": "N:4.00,4.00",
+      "b": "N:4.00,2.40",
+      "visits": 2,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:4.00,0.80<->N:4.00,2.40": {
+      "key": "N:4.00,0.80<->N:4.00,2.40",
+      "a": "N:4.00,2.40",
+      "b": "N:4.00,0.80",
+      "visits": 2,
+      "last_direction": "N",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:0.80,2.40<->N:2.40,2.40": {
+      "key": "N:0.80,2.40<->N:2.40,2.40",
+      "a": "N:2.40,2.40",
+      "b": "N:0.80,2.40",
+      "visits": 1,
+      "last_direction": "W",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,0.80<->N:0.80,0.80": {
+      "key": "N:-0.80,0.80<->N:0.80,0.80",
+      "a": "N:0.80,0.80",
+      "b": "N:-0.80,0.80",
+      "visits": 1,
+      "last_direction": "W",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-0.80,0.80<->N:-2.40,0.80": {
+      "key": "N:-0.80,0.80<->N:-2.40,0.80",
+      "a": "N:-0.80,0.80",
+      "b": "N:-2.40,0.80",
+      "visits": 1,
+      "last_direction": "W",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-2.40,-0.80<->N:-4.00,-0.80": {
+      "key": "N:-2.40,-0.80<->N:-4.00,-0.80",
+      "a": "N:-2.40,-0.80",
+      "b": "N:-4.00,-0.80",
+      "visits": 1,
+      "last_direction": "W",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    },
+    "N:-2.40,-2.40<->N:-4.00,-2.40": {
+      "key": "N:-2.40,-2.40<->N:-4.00,-2.40",
+      "a": "N:-4.00,-2.40",
+      "b": "N:-2.40,-2.40",
+      "visits": 1,
+      "last_direction": "E",
+      "failed": false,
+      "failure_count": 0,
+      "failure_reason": ""
+    }
+  },
+  "grid": {
+    "xs": [
+      -4.0,
+      -2.4,
+      -0.7999999999999998,
+      0.8000000000000007,
+      2.4000000000000004,
+      4.0
+    ],
+    "ys": [
+      -4.0,
+      -2.4,
+      -0.7999999999999998,
+      0.8000000000000007,
+      2.4000000000000004,
+      4.0
+    ],
+    "dx": 1.6,
+    "dy": 1.6
+  }
+}

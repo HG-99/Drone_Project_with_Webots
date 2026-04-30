@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Webots temporary files
+*.wbproj
+*.wbo
+*.log
+
+# Large / generated outputs
+result/
+results/
+runs/
+outputs/
+debug/
+debug_output/
+*.mp4
+*.avi
+
+# Model/checkpoint files
+*.pt
+*.pth
+*.onnx
+*.engine
+
+# Zip backups
+*.zip

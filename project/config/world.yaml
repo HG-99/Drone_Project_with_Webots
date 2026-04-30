@@ -1,0 +1,97 @@
+marker:
+  dictionary: DICT_4X4_50
+  ids:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+  - 6
+  - 7
+  - 8
+  - 9
+  - 10
+  outer_size_m: 0.5
+  thickness_m: 0.01
+  count: 10
+  seed: null
+  random_select_from_folder: true
+  random_place_on_vertices: true
+  forbidden_vertices: []
+
+arena:
+  width_m: 15.0
+  height_m: 15.0
+  wall_height_m: 0.5
+  floor_tile_size_m: 1.0
+
+grid:
+  width_m: 8.0
+  height_m: 8.0
+  cols: 5
+  rows: 5
+  line_width_m: 0.15
+  line_thickness_m: 0.01
+
+entry_path:
+  enabled: true
+  name: entry_path
+  line_width_m: 0.15
+  thickness_m: 0.01
+  z_offset_m: 0.0000
+  color: [0, 0, 0]
+  start_xy: [0.0, -5.0]
+  end_xy: [0.0, -4.0]
+
+texture:
+  save_dir: project/textures/aruco_marker
+  canvas_size_px: 1024
+  marker_code_size_px: 824
+  margin_px: 100
+
+start:
+  robot_translation:
+  - 0.0
+  - -0.0
+  - 1.0
+
+robot:
+  def_name: LINE_TRACKER
+  name: line_tracker
+  controller: line_tracker
+  supervisor: true
+  auto_pose_from_entry: true
+  include_physics: false
+
+  body_size: [0.36, 0.36, 0.10]
+  body_color: [0.15, 0.15, 0.18]
+
+  front_marker_translation: [0.16, 0.0, 0.07]
+  front_marker_size: [0.12, 0.16, 0.03]
+  front_marker_color: [0.9, 0.2, 0.2]
+
+  show_side_marker: true
+  side_marker_translation: [0.0, 0.16, 0.07]
+  side_marker_size: [0.10, 0.04, 0.03]
+  side_marker_color: [0.2, 0.2, 0.9]
+
+  front_camera_translation: [0.20, 0.0, 0.02]
+  front_camera_rotation: [0.0, 0.0, 1.0, 0.0]
+
+  down_camera_translation: [0.0, 0.0, -0.14]
+  down_camera_rotation: [0.0, 1.0, 0.0, 1.5708]
+
+  camera:
+    width: 640
+    height: 480
+    fieldOfView: 1.2
+    near: 0.02
+
+output:
+  world_path: project/worlds/Drone_Project.wbt
+
+world:
+  vertical_axis: 2
+  fixed_altitude_offset: 0.0
+  initial_yaw_deg: 0.0
